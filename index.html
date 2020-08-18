@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Google Home Page</title>
+<meta charset="utf-8">
+
+<style>
+#content{
+    display:flex;
+    flex-direction: row;
+    flex-direction: column;
+    text-align: center;
+    flex-wrap:nowrap;
+    justify-content: space-around;
+    height:auto;
+    max-width: 100%;
+}
+
+#header{
+    width: 100%;
+
+}
+
+.navcontent{
+    list-style-type: none;
+    display:flex;
+    flex-direction: row;
+    padding-left: 80%;
+}
+.navcontent > li {
+
+display: inline-block;
+
+margin-right: 20px;
+
+}
+
+.navcontentrightside{
+    list-style-type: none;
+    display:flex;
+    flex-direction: row;
+    padding-left: 85%;
+}
+
+.navcontentrightside > li {
+
+display: inline-block;
+
+margin-right: 20px;
+
+}
+
+.navcontentleftside{
+    list-style-type: none;
+    display:flex;
+    flex-direction: row;
+    padding-right: 80%;
+}
+
+.navcontentleftside{
+    list-style-type: none;
+    display:flex;
+    flex-direction: row;
+    padding-right: 80%;
+}
+
+.navcontentleftside > li {
+
+display: inline-block;
+
+margin-left: 20px;
+
+}
+
+
+
+</style>
+
+</head>
+
+<body>
+
+<div id="content">
+
+<header id="header">
+<ul class="navcontent">
+  <li><a href="">Gmail</a></li>
+  <li><a href="">Images</a></li>
+  <li><a href="">Google Apps</a></li>
+  <li><a href="">Google Profile</a></li>
+</ul>
+</header>
+<br><br>
+<main>
+
+    <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google logo">
+    <form action="">
+        <input type="text" name="googlesearch" id="googlesearch"><p></p>
+        <button>Google Search</button> <button>I'm feeling lucky</button>
+        <p>Google offered in: 'Country Language'</p>
+    </form>
+
+</main>
+
+<footer>
+    <ul class="navcontentrightside">
+        <li><a href="">Privacy</a></li>
+        <li><a href="">Terms</a></li>
+        <li><a href="">Settings</a></li>
+      </ul>
+
+      <ul class="navcontentleftside">
+        <li><a href="">Advertising</a></li>
+        <li><a href="">Business</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">How Search works</a></li>
+      </ul>
+</footer>
+</div>
+</body>
+</html>
